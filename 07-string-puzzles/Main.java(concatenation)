@@ -1,0 +1,19 @@
+class Main {
+  public static void main(String[] args) {
+    String s = "abc";
+    String c = "cat";
+    System.out.println(concatenation(s, c));
+  }
+
+  public static String concatenation(String s, String c) {
+    String s1 = s.substring(s.length() - 1); // last letter of s
+    String c1 = c.substring(0, 1); // first letter of c
+    
+    if (s1.equals(c1)){
+      return (s + c.substring(1));
+    }
+    else{
+      return (s + c);
+    }
+  }
+}
