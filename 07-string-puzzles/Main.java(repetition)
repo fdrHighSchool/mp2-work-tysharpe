@@ -1,0 +1,13 @@
+class Main {
+  public static void main(String[] args) {
+    int n = 2;
+    System.out.println(repetition("Hello", n));
+    
+   
+  }
+  public static String repetition(String s, int n){
+     String v = s.substring(s.length()-n);
+     return(v.repeat(n));
+  }
+  
+}
