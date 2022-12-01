@@ -15,10 +15,10 @@
 
 | P  | Q  | P \|\| Q | ! (P \|\| Q) | !P | !Q | !P && !Q |
 |:--:|:--:|:--------:|:------------:|:--:|:--:|:--------:|
-| T  | T  |          |              |    |    |          |
-| T  | F  |          |              |    |    |          |
-| F  | T  |          |              |    |    |          |
-| F  | F  |          |              |    |    |          |
+| T  | T  |    T     |              |    |    |          |
+| T  | F  |    T     |              |    |    |          |
+| F  | T  |    T     |              |    |    |          |
+| F  | F  |    F     |              |    |    |          |
 
 3. What does DeMorgan's state and how did you prove it for the case above?
   * **YOUR WRITING HERE**
